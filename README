@@ -35,3 +35,62 @@ This is a simple static site built with:
 - **ExplainShell** – screenshots for command explanations
 
 The structure is simple:
+ihtishamaliamir.github.io/
+├── _config.yml # site settings
+├── index.md # homepage
+├── _layouts/ # page templates
+├── overthewire/ # OverTheWire content
+│ └── bandit/
+│ └── levels/ # level walkthroughs
+└── assests/ # images and screenshots
+
+text
+
+---
+
+## Running it locally
+
+If you want to run this on your own machine:
+
+```bash
+git clone https://github.com/ihtishamaliamir/ihtishamaliamir.github.io
+cd ihtishamaliamir.github.io
+bundle install
+bundle exec jekyll serve
+Then open http://localhost:4000 in your browser.
+
+Let's connect
+I'm always open to connecting with people who share the same interests — whether you're just starting out or have been in the field for a while.
+
+GitHub: ihtishamaliamir
+
+LinkedIn: Ihtisham Ali Amir
+
+I had no idea where to start when I began. So I just started. It eventually clicked.
+
+text
+
+---
+
+## 🚀 Add It to Your Repo
+
+```bash
+# Create the file
+touch README.md
+
+# Open it and paste the content above
+nano README.md
+
+# Push it
+git add README.md
+git commit -m "Added natural README for repo"
+git push -u origin main
+✅ What This Does
+Feature	Why It Works
+Personal intro	Tells people who you are and why this exists
+Live site link	Drives visitors to your actual website
+Progress tracker	Shows what's done and what's coming
+Tech stack	Explains how it's built
+Structure overview	Helps others navigate the repo
+Local setup instructions	Makes it easy for anyone to clone and run
+Connect section	Invites people to reach out
