@@ -44,13 +44,13 @@ Password: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
 💡 Tip: Notice the file has spaces in its name!
 
-![SSH](../../../assests/images/overthewire/bandit/bandit2/bandit2_ssh.png)
+https://../../../../assests/images/overthewire/bandit/bandit2/bandit2_ssh.png
 
 Step 2: Explore the Directory
 bash
 bandit2@bandit:~$ ls
 --spaces in this filename--
-![LS](../../../assests/images/overthewire/bandit/bandit2/bandit2_ls.png)
+https://../../../../assests/images/overthewire/bandit/bandit2/bandit2_ls.png
 
 Step 3: Read the File (Correct Way)
 Use quotes:
@@ -58,7 +58,7 @@ Use quotes:
 bash
 bandit2@bandit:~$ cat "--spaces in this filename--"
 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
-![CAT](../../../assests/images/overthewire/bandit/bandit2/bandit2_cat.png)
+https://../../../../assests/images/overthewire/bandit/bandit2/bandit2_cat.png
 
 🎯 Password for Next Level
 text
