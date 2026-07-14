@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity Notes
 
-> A personal documentation site for OverTheWire, CTFs, and cybersecurity concepts.
+A personal documentation site for OverTheWire, CTFs, and cybersecurity concepts.
 
 ---
 
@@ -13,7 +13,7 @@
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - **GitHub Pages** — Hosting
 - **Jekyll** — Static site generator
@@ -22,7 +22,7 @@
 
 ---
 
-### 📁 Site Structure
+## 📁 Site Structure
 ├── _config.yml # Site settings
 ├── index.md # Homepage
 ├── _layouts/ # Page templates
@@ -31,17 +31,15 @@
 │ └── levels/ # Level walkthroughs
 └── assests/ # Images and screenshots
 
-text
-
 ---
 
-#### 🔗 Live Site
+## 🔗 Live Site
 
 **Visit:** [ihtishamaliamir.github.io](https://ihtishamaliamir.github.io)
 
 ---
 
-### 📊 Current Progress
+## 📊 Current Progress of Bandit OverTheWire
 
 | Level | Status |
 |-------|--------|
@@ -50,12 +48,12 @@ text
 
 ---
 
-### 👥 Contributors
+## 👥 Contributors
 
 - [ihtishamaliamir](https://github.com/ihtishamaliamir)
 ---
 
-### 📬 Let's Connect
+## 📬 Let's Connect
 
 - **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
 - **LinkedIn:** [Ihtisham Ali Amir](https://linkedin.com/in/ihtishamaliamir)
