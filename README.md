@@ -53,8 +53,6 @@ text
 ### 👥 Contributors
 
 - [ihtishamaliamir](https://github.com/ihtishamaliamir)
-- Ihtisham Ali Amir
-
 ---
 
 ### 📬 Let's Connect
