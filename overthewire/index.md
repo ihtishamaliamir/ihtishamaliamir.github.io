@@ -15,7 +15,7 @@ OverTheWire is a series of **hands-on wargames** that teach security concepts th
 **Focus:** Linux fundamentals, command line, and basic security concepts
 
 **Status:** 🔄 In Progress  
-**Levels Completed:** 1 / 34  
+**Levels Completed:** 17 / 34  
 **Current Level:** 0
 
 ---
@@ -24,7 +24,7 @@ OverTheWire is a series of **hands-on wargames** that teach security concepts th
 
 | Game | Status | Levels Done | Started |
 |------|--------|-------------|---------|
-| **Bandit** | 🔄 Active | 1 | July 2026 |
+| **Bandit** | 🔄 Active | 17 | July 2026 |
 | *More coming soon...* | ⏳ Planned | — | — |
 
 ---
