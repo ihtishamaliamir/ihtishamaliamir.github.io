@@ -44,19 +44,19 @@ title: "Bandit Level 3"
 ssh bandit3@bandit.labs.overthewire.org -p 2220
 Password: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
 
-https:///assests/images/overthewire/bandit/bandit3/bandit3_ssh.png
+![SSH](../../../assests/images/overthewire/bandit/bandit3/bandit3_ssh.png)
 
 Step 2: Explore the Directory
 bash
 bandit3@bandit:~$ ls
 inhere
 bandit3@bandit:~$ cd inhere/
-https:///assests/images/overthewire/bandit/bandit3/bandit3_cd-inhere.png
+![CD](../../../assests/images/overthewire/bandit/bandit3/bandit3_cd-inhere.png)
 
 bash
 bandit3@bandit:~/inhere$ ls
 (nothing shows up)
-https:///assests/images/overthewire/bandit/bandit3/bandit3_ls.png
+![LS](../../../assests/images/overthewire/bandit/bandit3/bandit3_ls.png)
 
 Why is nothing showing? The file is hidden!
 
@@ -67,7 +67,7 @@ total 12
 drwxr-xr-x 2 root    root    4096 Jun 24 14:59 .
 drwxr-xr-x 3 root    root    4096 Jun 24 14:59 ..
 -rw-r----- 1 bandit4 bandit3   33 Jun 24 14:59 ...Hiding-From-You
-https:///assests/images/overthewire/bandit/bandit3/bandit3_ls-la.png
+![LS -LA](../../../assests/images/overthewire/bandit/bandit3/bandit3_ls-la.png)
 
 What does -la do?
 
@@ -79,7 +79,7 @@ Step 4: Read the Hidden File
 bash
 bandit3@bandit:~/inhere$ cat ./...Hiding-From-You
 xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
-https:///assests/images/overthewire/bandit/bandit3/bandit3_cat.png
+![CAT](../../../assests/images/overthewire/bandit/bandit3/bandit3_cat.png)
 
 🎯 Password for Next Level
 text

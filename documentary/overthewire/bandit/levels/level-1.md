@@ -44,7 +44,7 @@ Password: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 
 💡 Tip: Notice the file is named - — that's unusual!
 
-https:///assests/images/overthewire/bandit/bandit1/bandit1_ssh.png
+![SSH](../../../assests/images/overthewire/bandit/bandit1/bandit1_ssh.png)
 
 Step 2: Explore the Directory
 bash
@@ -52,7 +52,8 @@ bandit1@bandit:~$ ls
 -
 We found a file called - (just a dash). This is tricky because - is a special character in Linux.
 
-https:///assests/images/overthewire/bandit/bandit1/bandit1_ls.png
+![LS](../../../assests/images/overthewire/bandit/bandit1/bandit1_ls.png)
+
 
 Step 3: Read the File
 bash
@@ -64,7 +65,7 @@ cat - would read from standard input (keyboard), not a file
 
 ./- tells Linux "look in the current directory for a file named -"
 
-https:///assests/images/overthewire/bandit/bandit1/bandit1_cat-dash.png
+![CAT](../../../assests/images/overthewire/bandit/bandit1/bandit1_cat-dash.png)
 
 🎯 Password for Next Level
 text

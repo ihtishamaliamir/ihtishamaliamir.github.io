@@ -1,23 +1,28 @@
 ---
 layout: default
-title: "Home"
+title: "whoami"
 ---
 
 # $ whoami
 
-**👋 I'm Ihtisham Ali Amir**
+## Education
 
-4th-semester cybersecurity student at AWKUM. I break things to fix them.
+- **BS Cybersecurity** — AWKUM, Mardan (4th Semester)
+
+## Certifications
+
+- **Fortinet FCF** — Fortinet Certified Fundamentals
+
+## Currently
+
+- Training at **DESC** (Batch 1, KPITB Program)
+- Practicing **CCNA** networking
+- Playing **OverTheWire Bandit** (17/34 levels)
+
+## Goal
+
+Work as a penetration tester. Not because it pays well — because I like catching bad people by breaking things.
 
 ---
-
-## Explore
-
-- [📋 whoami →](/whoami/) — My education, certifications, and goals
-- [📂 documentary →](/documentary/) — Walkthroughs, CTFs, and security notes
-
----
-
-I started with a terminal and a curious mind. Now I document everything I learn.
 
 [GitHub](https://github.com/ihtishamaliamir) · [LinkedIn](https://linkedin.com/in/ihtishamaliamir)
