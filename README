@@ -1,10 +1,11 @@
 # 🛡️ Cybersecurity Notes
 
-A personal documentation site documenting my journey through OverTheWire, CTFs, and cybersecurity concepts.
+> A personal documentation site for OverTheWire, CTFs, and cybersecurity concepts.
 
 ---
 
-## Features
+## 🔥 Features
+
 - OverTheWire Bandit walkthroughs with commands and screenshots
 - ExplainShell visual explanations for each command
 - Clean, easy-to-follow documentation style
@@ -12,15 +13,16 @@ A personal documentation site documenting my journey through OverTheWire, CTFs, 
 
 ---
 
-## Tech Stack
-- GitHub Pages — Hosting
-- Jekyll — Static site generator
-- Markdown — All content written in plain text
-- ExplainShell — Command visualizations
+### 🛠️ Tech Stack
+
+- **GitHub Pages** — Hosting
+- **Jekyll** — Static site generator
+- **Markdown** — All content written in plain text
+- **ExplainShell** — Command visualizations
 
 ---
 
-## Site Structure
+### 📁 Site Structure
 ├── _config.yml # Site settings
 ├── index.md # Homepage
 ├── _layouts/ # Page templates
@@ -33,12 +35,14 @@ text
 
 ---
 
-## Live Site
-🔗 **Visit:** [ihtishamaliamir.github.io](https://ihtishamaliamir.github.io)
+#### 🔗 Live Site
+
+**Visit:** [ihtishamaliamir.github.io](https://ihtishamaliamir.github.io)
 
 ---
 
-## Current Progress
+### 📊 Current Progress
+
 | Level | Status |
 |-------|--------|
 | 0–4 | ✅ Complete |
@@ -46,12 +50,14 @@ text
 
 ---
 
-## Contributors
+### 👥 Contributors
+
 - [ihtishamaliamir](https://github.com/ihtishamaliamir)
 - Ihtisham Ali Amir
 
 ---
 
-## Let's Connect
+### 📬 Let's Connect
+
 - **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
 - **LinkedIn:** [Ihtisham Ali Amir](https://linkedin.com/in/ihtishamaliamir)
