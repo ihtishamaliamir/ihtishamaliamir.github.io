@@ -14,6 +14,10 @@ kramdown:
 
 permalink: /:path/
 
+# GitHub Pages Settings
+github: [metadata]
+repository: ihtishamaliamir/ihtishamaliamir.github.io
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -21,9 +25,5 @@ plugins:
 defaults:
   - scope:
       path: ""
-    values:
-      layout: "default"
-  - scope:
-      path: "documentary/**/*.md"
     values:
       layout: "default"
