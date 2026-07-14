@@ -10,39 +10,73 @@ A professional portfolio documenting my journey through cybersecurity — from t
 
 ## 📁 Project Structure
 ihtishamaliamir.github.io/
+
 ├── _config.yml # Jekyll configuration
+
 ├── index.md # Landing page
+
 ├── whoami/
+
 │ └── index.md # About me — education, certs, goals
+
 ├── documentary/
+
 │ ├── index.md # Content hub
+
 │ ├── overthewire/
+
 │ │ ├── index.md # OverTheWire overview
+
 │ │ └── bandit/
+
 │ │ ├── index.md # Bandit progress
+
 │ │ └── levels/
+
 │ │ ├── level-0.md
+
 │ │ ├── level-1.md
+
 │ │ └── ... # All walkthroughs
+
 │ ├── ctf/
+
 │ │ └── index.md # CTF writeups (coming soon)
+
 │ └── notes/
+
 │ └── index.md # Security notes (coming soon)
+
 ├── _layouts/
+
 │ └── default.html # Page template with dark/light toggle
+
 ├── assets/
+
 │ ├── css/
+
 │ │ └── style.css # Terminal theme styling
+
 │ └── js/
+
 │ └── main.js # Theme toggle functionality
+
 └── assests/
+
 └── images/
+
 └── overthewire/
+
 └── bandit/ # Screenshots for walkthroughs
+
 ├── bandit0/
+
 ├── bandit1/
+
 ├── bandit2/
+
 ├── bandit3/
+
 └── bandit4/
 
 text
