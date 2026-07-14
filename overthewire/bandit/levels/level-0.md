@@ -96,7 +96,7 @@ The password you are looking for is: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 
 ## ➡️ What's Next
 
-# [Level 1 →](/overthewire/bandit/levels/level-1/)**
+# [Level 1 →](/overthewire/bandit/levels/level-1/)
 --- 
 
 *This didn't feel like much when I first did it. But looking back — this was the first step. And every step after this builds on it.*

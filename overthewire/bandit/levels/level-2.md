@@ -112,7 +112,7 @@ bandit2@bandit:~$ cat ./"--spaces in this filename--"
 
 ## ➡️ What's Next
 
-# [Level 3 →](/overthewire/bandit/levels/level-3/)**
+# [Level 3 →](/overthewire/bandit/levels/level-3/)
 
 ---
 
