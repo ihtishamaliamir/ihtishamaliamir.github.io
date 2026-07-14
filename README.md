@@ -8,82 +8,66 @@
 
 ---
 
-## 📖 About This Site
+## About This Site
 
-This is more than just a portfolio — it's my **digital notebook** where I document everything I learn in cybersecurity. Every walkthrough, note, and insight I share here comes from hands-on experience and genuine curiosity.
+This is my digital notebook — where I document everything I learn in cybersecurity. Every walkthrough, note, and insight comes from hands-on experience and genuine curiosity.
 
 ### What you'll find here:
 
 - **My Story** — Who I am, what drives me, and where I'm headed
-- **Wargame Walkthroughs** — Step-by-step solutions for OverTheWire and other platforms
-- **CTF Writeups** — Capture The Flag challenge solutions and techniques
-- **Security Notes** — Deep dives into vulnerabilities, tools, and concepts
+- **Wargame Walkthroughs** — Step-by-step solutions for OverTheWire Bandit
+- **CTF Writeups** — Capture The Flag challenge solutions (coming soon)
+- **Security Notes** — Deep dives into vulnerabilities, tools, and concepts (coming soon)
 
 ---
 
-## 🎯 Why I Document Everything
+## Why I Document Everything
 
-> *"I had no idea where to start when I began. So I just started. It eventually clicked."*
+I had no idea where to start when I began. So I just started. It eventually clicked.
 
 I document my journey because:
-- **I don't want to forget** — writing reinforces learning
-- **Others can learn too** — helping beginners find their way
-- **It builds my portfolio** — showcasing real security work
+- Writing reinforces what I learn
+- Others starting from zero can benefit too
+- It builds a portfolio of real security work
 
 ---
 
-## 📊 Current Focus
+## What I'm Currently Working On
 
-| Focus Area | Status | Details |
-|------------|--------|---------|
-| **DESC Training** | 🔄 Active | Batch 1, KPITB program — Security Architect role |
-| **CCNA Networking** | 🔄 Active | Routing, switching, ACLs, VLANs, OSPF |
-| **OverTheWire Bandit** | 🔄 Active | 17/34 levels complete |
-| **PortSwigger Labs** | 🔄 Active | SQL injection and web security labs |
+- Training at **DESC** (Batch 1, KPITB Program) — Security Architect role
+- Practicing **CCNA** networking — routing, switching, VLANs, OSPF
+- Playing **OverTheWire Bandit** — 17 out of 34 levels complete
+- Working through **PortSwigger** SQL injection labs
 
 ---
 
-## 🚀 What's Coming
+## What's Coming
 
-- [ ] Complete all Bandit levels (0-33) with detailed walkthroughs
-- [ ] CTF writeups from HackTheBox, TryHackMe, and more
-- [ ] Security notes on OWASP Top 10, network security, cryptography
-- [ ] Project showcases — security tools, scripts, and reports
-- [ ] More wargames — Leviathan, Krypton, Narnia
-
----
-
-## 💡 Design Philosophy
-
-This site is built with a **terminal-inspired aesthetic** to reflect the command-line nature of cybersecurity work. Features include:
-
-- **Clean, minimal design** — content-first, no distractions
-- **Dark/Light theme** — user preference with system detection
-- **Fully responsive** — works on all devices
-- **Scalable** — grows with my learning journey
+- Complete all Bandit levels with detailed walkthroughs
+- CTF writeups from HackTheBox and TryHackMe
+- Security notes on OWASP Top 10, network security, and cryptography
+- Project showcases — security tools, scripts, and reports
+- More wargames — Leviathan, Krypton, Narnia
 
 ---
 
-## 🤝 Let's Connect
+## Design
 
-Whether you're a fellow learner, a security professional, or just curious about cybersecurity — I'd love to connect!
+This site uses a terminal-inspired aesthetic to reflect the command-line nature of cybersecurity work. It's clean, minimal, and built to grow with my learning journey.
 
-- **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
-- **LinkedIn:** [Ihtisham Ali Amir](https://linkedin.com/in/ihtishamaliamir)
-
----
-
-## 📄 License
-
-All content is my personal learning documentation. Feel free to reference it for your own learning journey.
+Features:
+- Dark and light theme toggle
+- Fully responsive on all devices
+- Content-first, no distractions
 
 ---
 
-## 🙏 Acknowledgments
+## Let's Connect
 
-- **[OverTheWire](https://overthewire.org/)** — for the incredible Bandit wargame
-- **[ExplainShell](https://explainshell.com/)** — for making command-line learning visual
+Whether you're learning cybersecurity too or already in the field — let's connect and grow together.
+
+[GitHub](https://github.com/ihtishamaliamir) · [LinkedIn](https://linkedin.com/in/ihtishamaliamir)
 
 ---
 
-*Built with ♥ for the cybersecurity community.*
+*"I had no idea where to start when I began. So I just started. It eventually clicked."*
