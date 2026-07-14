@@ -7,7 +7,7 @@ title: "Bandit Level 12"
 
 ---
 
-## 📋 Level Information
+##  Level Information
 
 | Property | Value |
 |----------|-------|
@@ -19,32 +19,32 @@ title: "Bandit Level 12"
 
 ---
 
-## 🔧 Commands Used
+##  Commands Used
 
 *Coming soon...*
 
 ---
 
-## 🔍 Solution
+##  Solution
 
 *Coming soon...*
 
 ---
 
-## 🎯 Password for Next Level
+##  Password for Next Level
 
 
 ---
 
-## 📚 Key Learnings
+##  Key Learnings
 
 *Coming soon...*
 
 ---
 
-## ➡️ Next Level
+##  Next Level
 
-[Level 13 →](/documentary/overthewire/bandit/levels/level-13/)
+[Back to Bandit index](/documentary/overthewire/bandit/)
 
 ---
 

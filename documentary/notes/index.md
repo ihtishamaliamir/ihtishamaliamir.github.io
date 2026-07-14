@@ -9,7 +9,7 @@ Coming soon! Professional security notes, concepts, and insights.
 
 ---
 
-## 📝 Planned Topics
+##  Planned Topics
 
 - Cybersecurity fundamentals
 - Tool guides and tutorials
@@ -18,4 +18,4 @@ Coming soon! Professional security notes, concepts, and insights.
 
 ---
 
-*Stay tuned!* 🚀
+*Stay tuned!* 

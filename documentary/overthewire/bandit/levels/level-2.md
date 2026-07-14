@@ -12,7 +12,7 @@ title: "Bandit Level 2"
 
 ---
 
-## 📋 Level Information
+##  Level Information
 
 | Property | Value |
 |----------|-------|
@@ -24,7 +24,7 @@ title: "Bandit Level 2"
 
 ---
 
-## 🔧 Commands Used
+##  Commands Used
 
 | Command | Purpose |
 |---------|---------|
@@ -34,7 +34,7 @@ title: "Bandit Level 2"
 
 ---
 
-## 🔍 Solution
+##  Solution
 
 ### Step 1: Connect to the Server
 
@@ -42,15 +42,15 @@ title: "Bandit Level 2"
 ssh bandit2@bandit.labs.overthewire.org -p 2220
 Password: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
-💡 Tip: Notice the file has spaces in its name!
+ Tip: Notice the file has spaces in its name!
 
-![SSH session](/assests/images/overthewire/bandit/bandit2/bandit2_ssh.png)
+![SSH session](/assets/images/overthewire/bandit/bandit2/bandit2_ssh.png)
 
 Step 2: Explore the Directory
 bash
 bandit2@bandit:~$ ls
 --spaces in this filename--
-![Directory listing](/assests/images/overthewire/bandit/bandit2/bandit2_ls.png)
+![Directory listing](/assets/images/overthewire/bandit/bandit2/bandit2_ls.png)
 
 Step 3: Read the File (Correct Way)
 Use quotes:
@@ -58,16 +58,16 @@ Use quotes:
 bash
 bandit2@bandit:~$ cat "--spaces in this filename--"
 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
-![File content](/assests/images/overthewire/bandit/bandit2/bandit2_cat.png)
+![File content](/assets/images/overthewire/bandit/bandit2/bandit2_cat.png)
 
-🎯 Password for Next Level
+ Password for Next Level
 text
 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
-📚 Key Learnings
+ Key Learnings
 Concept	What I Learned
 Spaces in Filenames	Need to quote filenames with spaces
 Quoting	"filename with spaces" tells the shell it's one argument
-➡️ Next Level
+ Next Level
 Level 3 →
 
 Quoting is a fundamental skill in the shell.

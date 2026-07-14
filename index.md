@@ -5,19 +5,17 @@ title: "Home"
 
 # $ whoami
 
-**👋 I'm Ihtisham Ali Amir**
-
-4th-semester cybersecurity student at AWKUM. I break things to fix them.
+I am Ihtisham Ali Amir, a 4th-semester cybersecurity student at AWKUM. I study systems, explore security concepts, and document what I learn in a practical way.
 
 ---
 
 ## Explore
 
-- [📋 whoami →](/whoami/) — My education, certifications, and goals
-- [📂 documentary →](/documentary/) — Walkthroughs, CTFs, and security notes
+- [Whoami](/whoami/) — Education, certifications, and current focus
+- [Documentary](/documentary/) — Walkthroughs, CTF notes, and security writeups
 
 ---
 
-I started with a terminal and a curious mind. Now I document everything I learn.
+I started with curiosity and a terminal. Over time, that curiosity turned into a structured learning process and a growing portfolio.
 
 [GitHub](https://github.com/ihtishamaliamir) · [LinkedIn](https://linkedin.com/in/ihtishamaliamir)

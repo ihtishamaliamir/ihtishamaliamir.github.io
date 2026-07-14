@@ -36,9 +36,9 @@
     // Update icon based on theme
     function updateIcon(theme) {
         if (theme === 'dark') {
-            themeIcon.textContent = '🌙';
+            themeIcon.textContent = '';
         } else {
-            themeIcon.textContent = '☀️';
+            themeIcon.textContent = '';
         }
     }
 

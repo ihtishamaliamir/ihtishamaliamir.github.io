@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/assets/images/favicon.png" type="image/png">
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/png">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
     
@@ -20,20 +20,20 @@
             </div>
             
             <div class="nav-menu">
-                <a href="/" class="nav-link">🏠 Home</a>
-                <a href="/whoami/" class="nav-link">📋 whoami</a>
+                <a href="/" class="nav-link">Home</a>
+                <a href="/whoami/" class="nav-link">Whoami</a>
                 
                 <div class="dropdown">
-                    <button class="dropbtn">📂 documentary ▾</button>
+                    <button class="dropbtn">Documentary</button>
                     <div class="dropdown-content">
-                        <a href="/documentary/overthewire/">🎮 OverTheWire</a>
-                        <a href="/documentary/ctf/">🏴 CTF Writeups</a>
-                        <a href="/documentary/notes/">📝 Security Notes</a>
+                        <a href="/documentary/overthewire/">OverTheWire</a>
+                        <a href="/documentary/ctf/">CTF Writeups</a>
+                        <a href="/documentary/notes/">Security Notes</a>
                     </div>
                 </div>
                 
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-                    <span id="themeIcon">🌙</span>
+                    <span id="themeIcon">T</span>
                 </button>
             </div>
         </nav>
@@ -46,7 +46,7 @@
         <!-- Footer -->
         <footer>
             <p>
-                Built with <span class="heart">♥</span> by {{ site.author }} &bull;
+                Built by {{ site.author }} &bull;
                 <a href="https://github.com/ihtishamaliamir" target="_blank">GitHub</a> &bull;
                 <a href="https://linkedin.com/in/ihtishamaliamir" target="_blank">LinkedIn</a>
             </p>

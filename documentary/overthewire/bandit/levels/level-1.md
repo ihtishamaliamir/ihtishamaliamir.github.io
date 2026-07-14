@@ -12,7 +12,7 @@ title: "Bandit Level 1"
 
 ---
 
-## 📋 Level Information
+##  Level Information
 
 | Property | Value |
 |----------|-------|
@@ -24,7 +24,7 @@ title: "Bandit Level 1"
 
 ---
 
-## 🔧 Commands Used
+##  Commands Used
 
 | Command | Purpose |
 |---------|---------|
@@ -34,7 +34,7 @@ title: "Bandit Level 1"
 
 ---
 
-## 🔍 Solution
+##  Solution
 
 ### Step 1: Connect to the Server
 
@@ -42,15 +42,15 @@ title: "Bandit Level 1"
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 Password: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 
-💡 Tip: Notice the file is named - — that's unusual!
+ Tip: Notice the file is named - — that's unusual!
 
-![SSH session](/assests/images/overthewire/bandit/bandit1/bandit1_ssh.png)
+![SSH session](/assets/images/overthewire/bandit/bandit1/bandit1_ssh.png)
 
 Step 2: Explore the Directory
 bash
 bandit1@bandit:~$ ls
 -
-![Directory listing](/assests/images/overthewire/bandit/bandit1/bandit1_ls.png)
+![Directory listing](/assets/images/overthewire/bandit/bandit1/bandit1_ls.png)
 
 Step 3: Read the File
 bash
@@ -62,16 +62,16 @@ cat - would read from standard input (keyboard), not a file
 
 ./- tells Linux "look in the current directory for a file named -"
 
-![Cat dash output](/assests/images/overthewire/bandit/bandit1/bandit1_cat-dash.png)
+![Cat dash output](/assets/images/overthewire/bandit/bandit1/bandit1_cat-dash.png)
 
-🎯 Password for Next Level
+ Password for Next Level
 text
 PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
-📚 Key Learnings
+ Key Learnings
 Concept	What I Learned
 Special Filenames	Files can have names like - that need special handling
 Current Directory	./ specifies the current directory
-➡️ Next Level
+ Next Level
 Level 2 →
 
 The file named - taught me that filenames matter in Linux.

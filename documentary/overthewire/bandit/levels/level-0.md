@@ -7,7 +7,7 @@ title: "Bandit Level 0"
 
 ---
 
-## 📋 Level Information
+## Level Information
 
 | Property | Value |
 |----------|-------|
@@ -19,7 +19,7 @@ title: "Bandit Level 0"
 
 ---
 
-## 🔧 Commands Used
+## Commands Used
 
 | Command | Purpose |
 |---------|---------|
@@ -29,7 +29,7 @@ title: "Bandit Level 0"
 
 ---
 
-## 🔍 Solution
+## Solution
 
 ### Step 1: Connect to the Server
 
@@ -37,7 +37,7 @@ title: "Bandit Level 0"
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 Password: bandit0
 
-💡 Tip: Read the level goal carefully first. Then read the manual if you don't know what a command does.
+Tip: Read the level goal carefully first. Then read the manual if you don't know what a command does.
 
 ![SSH Login](../../../../assets/images/overthewire/bandit/bandit0/bandit0_ssh.png)
 
@@ -56,13 +56,13 @@ text
 The password you are looking for is: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 ![SSH Login](../../../../assests/images/overthewire/bandit/bandit0/bandit0_cat-readme.png)
 
-🎯 Password for Next Level
+Password for Next Level
 text
 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
-📚 Key Learnings
+Key Learnings
 Concept	What I Learned
 SSH Basics	Remote connection with ssh and custom ports (-p)
 File Navigation	ls to list what's there
 File Reading	cat to view file contents
-<div style="display: flex; justify-content: space-between; margin-top: 30px;"> <span style="background: var(--bg-tertiary); color: var(--text-muted); padding: 10px 20px; border-radius: 6px; border: 1px solid var(--border);">⬅️ Previous: —</span> <a href="/documentary/overthewire/bandit/levels/level-1/" style="background: var(--accent); color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 600;">Next Level 1 →</a> </div>
+<div style="display: flex; justify-content: space-between; margin-top: 30px;"> <span style="background: var(--bg-tertiary); color: var(--text-muted); padding: 10px 20px; border-radius: 6px; border: 1px solid var(--border);">Previous: —</span> <a href="/documentary/overthewire/bandit/" style="background: var(--accent); color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 600;">Back to Bandit index</a> </div>
 This didn't feel like much when I first did it. But looking back — this was the first step.

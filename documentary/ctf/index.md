@@ -14,7 +14,7 @@ Coming soon! I'll be sharing my Capture The Flag challenge solutions and techniq
 
 ---
 
-## 📝 What to Expect
+##  What to Expect
 
 - Detailed walkthroughs of CTF challenges
 - Exploitation techniques
@@ -23,4 +23,4 @@ Coming soon! I'll be sharing my Capture The Flag challenge solutions and techniq
 
 ---
 
-*Stay tuned!* 🚀
+*Stay tuned!* 
