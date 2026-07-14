@@ -127,7 +127,7 @@ xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
 
 ## ➡️ What's Next
 
-**[Level 4 →](/overthewire/bandit/levels/level-4/)**
+# [Level 4 →](/overthewire/bandit/levels/level-4/)
 
 ---
 

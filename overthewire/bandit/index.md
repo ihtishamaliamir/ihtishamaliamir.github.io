@@ -28,7 +28,7 @@ I've completed **Bandit** completely, but for this walkthrough, I'm sticking to 
 | 1 | ✅ Complete |[Level 1](/overthewire/bandit/levels/level-1/)
 | 2 | ✅ Complete |[Level 2](/overthewire/bandit/levels/level-2/)
 | 3 | ✅ Complete |[Level 3](/overthewire/bandit/levels/level-3/)
-| 4 | ✅ Complete |[Level 4](/overthewire/bandit/levels/level-4/)
+| 4 | ✅ Complete | [Level 4](/overthewire/bandit/levels/level-4/)
 | 5 | ✅ Complete | Coming soon |
 | 6 | ✅ Complete | Coming soon |
 | 7 | ✅ Complete | Coming soon |
