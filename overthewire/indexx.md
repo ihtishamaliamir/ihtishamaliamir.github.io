@@ -24,15 +24,6 @@ I'm documenting my journey through these games to solidify my learning and help 
 
 ---
 
-## 📊 My Progress
-
-| Game | Status | Levels Done | Started |
-|------|--------|-------------|---------|
-| **Bandit** | 🔄 Active | 0 | July 2026 |
-| *More coming soon...* | ⏳ Planned | — | — |
-
----
-
 ## 🔗 Resources
 
 - [Official OverTheWire Site](https://overthewire.org/wargames/)

@@ -2,8 +2,8 @@
 title: "Ithisha's Cybersecurity Journey"
 description: "Documenting my journey through OverTheWire, CTFs, and cybersecurity concepts"
 author: "Ithisha Maliamir"
-baseurl: ""  # Leave empty for GitHub Pages user site
-url: "https://ithishamaliamir.github.io"
+baseurl: ""
+url: "https://ihtishamaliamir.github.io"
 
 # Navigation
 nav:
@@ -12,7 +12,7 @@ nav:
   - name: "🎮 OverTheWire"
     url: "/overthewire/"
   - name: "🎯 Bandit"
-    url: "/overthewire/bandit/"
+    url: "/bandit/"
 
 # Build Settings
 markdown: kramdown
@@ -33,10 +33,5 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: "posts"
-    values:
-      layout: "default"
-  - scope:
-      path: "overthewire"
     values:
       layout: "default"

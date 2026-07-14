@@ -5,40 +5,52 @@ title: "Home"
 
 # 👋 Hey, I'm Ithisha Maliamir
 
-Welcome to my little corner of the internet where I document my **cybersecurity journey** — one command, one challenge, and one lesson at a time.
+**Cybersecurity Enthusiast | CTF Player | Lifelong Learner**
 
-I'm currently diving deep into:
-- 🎯 **OverTheWire Bandit** — building Linux and CLI fundamentals
-- 🧠 **DESC Training Revision** — preparing for my certification
-- 🔐 **Ethical Hacking & CTFs** — learning by doing
-
-This site is my **digital notebook** — a place where I write down what I learn so I don't forget it, and hopefully, it helps someone else too.
+Welcome to my digital notebook — where I document my journey through the world of cybersecurity, one challenge at a time.
 
 ---
 
-## 📝 What You'll Find Here
+## 🎯 What I'm Currently Working On
+
+| Focus Area | Description |
+|------------|-------------|
+| **OverTheWire Bandit** | Building Linux fundamentals through hands-on challenges |
+| **DESC Training** | Preparing for my certification exam |
+| **CTFs & Ethical Hacking** | Learning by doing, solving real problems |
+
+---
+
+## 📚 Explore My Content
 
 ### [🎮 OverTheWire Walkthroughs](/overthewire/)
-Step-by-step notes from the Bandit wargame — from Level 0 all the way to the end. Each level includes the commands I used, what I learned, and screenshots to make it easier to follow.
+Complete walkthroughs of the Bandit wargame with step-by-step commands, explanations, and screenshots.
+
+- ✅ **Level 0**: SSH basics
+- ⬜ **Level 1**: Coming soon
+- ⬜ **More levels in progress**
+
+### [🎯 Bandit Levels](/bandit/)
+Jump directly to specific levels and track my progress.
 
 ---
 
-## 🧠 Why I'm Doing This
+## 💡 Why I Do This
 
-> "The best way to learn is to teach."
+> *"The best way to learn is to teach."*
 
-I believe in **learning in public**. By documenting my journey, I'm:
-- Solidifying my own understanding
+By documenting my journey, I'm:
+- Solidifying my understanding
 - Building a portfolio of my work
-- Creating a resource others can benefit from
+- Creating a resource for others
 
 ---
 
-## 📫 Let's Connect
+## 📬 Let's Connect
 
-- **GitHub:** [ithishamaliamir](https://github.com/ithishamaliamir)
-- **LinkedIn:** [Ithisha Maliamir](https://linkedin.com/in/ithishamaliamir)
+- **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
+- **LinkedIn:** [Ihtishamaliamir](https://linkedin.com/in/ithishamaliamir)
 
 ---
 
-*Thanks for stopping by! More content coming soon...* 🚀
+*More content coming soon... Stay tuned!* 🚀
