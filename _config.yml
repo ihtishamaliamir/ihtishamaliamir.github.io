@@ -1,6 +1,6 @@
 # Site Settings
 title: "Ihtisham Ali Amir | Cybersecurity Portfolio"
-description: "Cybersecurity student passionate about penetration testing, CTFs, and security research"
+description: "Cybersecurity student documenting my journey through security"
 author: "Ihtisham Ali Amir"
 baseurl: ""
 url: "https://ihtishamaliamir.github.io"
@@ -13,10 +13,6 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: /:path/
-
-# GitHub Pages Settings
-github: [metadata]
-repository: ihtishamaliamir/ihtishamaliamir.github.io
 
 plugins:
   - jekyll-feed
