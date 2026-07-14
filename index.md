@@ -3,55 +3,66 @@ layout: default
 title: "Home"
 ---
 
-# 👋 Hey, I'm Ihtisham
+# <span class="terminal-prompt">$</span> whoami
+
+**👋 Hey, I'm Ihtisham Ali Amir**
+
+A 4th-semester cybersecurity student at AWKUM who started with a terminal and a curious mind. I break things to fix them, and I document everything I learn along the way.
 
 I don't want to be a penetration tester because it pays well.  
-I want to be one because I like catching bad people by breaking things. That's my honest motivation.
-
-I'm a 4th‑semester cybersecurity student at AWKUM. I've been obsessed with how systems fail ever since I first touched a terminal — that was in 11th grade on my brother's laptop, following a YouTube tutorial to access a neighbor's WiFi. That small experiment humbled me. Real security wasn't what I expected. It sparked a curiosity that led me here.
+I want to be one because I like catching bad people by breaking things.
 
 ---
 
-## 🧠 Where I'm At Right Now
+## 🚀 Explore My Work
 
-**Currently training at DESC (Batch 1, KPITB program).**  
-As part of a team project, I took the role of Security Architect — we built a real security proposal to harden a campus CCTV system, including firewalls, VLANs, and SIEM integration. We presented it. They didn't laugh. That was a win.
-
-**Practicing CCNA‑level networking:** routing, switching, ACLs, VLANs, OSPF — using Cisco Packet Tracer and GNS3. I want to understand networks before I try to break them.
-
----
-
-## 🔥 Things I've Done On My Own
-
-- Worked through PortSwigger SQLi labs — not for certificates, but for the moment a blind injection finally works. I document payloads and mitigation steps.
-- Spent hours on VirusTotal and GreyNoise, asking *"why is this IP marked malicious?"* Half the time I don't know. The other half, I learn something new.
-- Used Wireshark on Kali to capture live traffic, find plain‑text passwords, and understand why encryption matters.
-- Earned Fortinet FCF — not because someone pushed me, but because I wanted to understand enterprise firewalls and talk about ZTNA without faking it.
-
----
-
-## 📝 What You'll Find Here
-
-This site is my **digital notebook** — where I document what I learn so I don't forget it. And maybe, just maybe, it helps someone else who's starting from zero like I did.
-
-### [🎮 OverTheWire Bandit Walkthroughs](/overthewire/bandit/index.md)
-Step-by-step, no-fluff walkthroughs of the Bandit wargame. Commands, explanations, and screenshots — exactly what I wish I had when I started.
+<div class="doc-grid">
+    <a href="/whoami/" class="doc-card" style="text-decoration: none;">
+        <span class="card-icon">📋</span>
+        <h3>whoami</h3>
+        <p>My education, certifications, skills, and current work</p>
+    </a>
+    
+    <a href="/documentary/" class="doc-card" style="text-decoration: none;">
+        <span class="card-icon">📂</span>
+        <h3>Documentary</h3>
+        <p>OverTheWire walkthroughs, CTF writeups, and security notes</p>
+    </a>
+</div>
 
 ---
 
-## 🎯 My Goal
+## 🎯 Quick Stats
 
-Work as a penetration tester. Not for the title or job security. But because I genuinely enjoy breaking things in a way that helps fix them, and because I like the idea of breaking things to catch the bad people. That's it.
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin: 20px 0;">
+    <div style="background: var(--bg-tertiary); padding: 15px; border-radius: 8px; text-align: center;">
+        <div style="font-size: 2em;">🎓</div>
+        <div style="font-weight: 600;">Student</div>
+        <div style="font-size: 0.9em; color: var(--text-secondary);">AWKUM, 4th Semester</div>
+    </div>
+    <div style="background: var(--bg-tertiary); padding: 15px; border-radius: 8px; text-align: center;">
+        <div style="font-size: 2em;">🔐</div>
+        <div style="font-weight: 600;">Training</div>
+        <div style="font-size: 0.9em; color: var(--text-secondary);">DESC Batch 1</div>
+    </div>
+    <div style="background: var(--bg-tertiary); padding: 15px; border-radius: 8px; text-align: center;">
+        <div style="font-size: 2em;">🎮</div>
+        <div style="font-weight: 600;">Bandit</div>
+        <div style="font-size: 0.9em; color: var(--text-secondary);">17 / 34 Levels</div>
+    </div>
+</div>
 
 ---
 
 ## 💬 Let's Connect
 
-If you share the same interests — whether you're a fellow learner, a mentor, or just someone willing to know more about security — let's connect and grow together.
+I document my journey to help others starting from zero. If you're learning cybersecurity too — or if you're a professional willing to mentor — let's connect!
 
-- **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
-- **LinkedIn:** [Ihtisham Ali Amir](https://linkedin.com/in/ihtishamaliamir)
+<div style="display: flex; gap: 15px; flex-wrap: wrap; margin: 10px 0;">
+    <a href="https://github.com/ihtishamaliamir" target="_blank" class="btn">🐙 GitHub</a>
+    <a href="https://linkedin.com/in/ihtishamaliamir" target="_blank" class="btn btn-secondary">🔗 LinkedIn</a>
+</div>
 
 ---
 
-*I had no idea where to start when I began. So I just started. It eventually clicked.*
+*"I had no idea where to start when I began. So I just started. It eventually clicked."*

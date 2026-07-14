@@ -1,65 +1,59 @@
-# 🛡️ Cybersecurity Notes
+# 🛡️ Ihtisham's Cybersecurity Portfolio
 
-A personal documentation site for OverTheWire, CTFs, and cybersecurity concepts.
+A professional portfolio website built with Jekyll, featuring:
 
----
+- **Homepage** — Terminal-style landing with quick navigation
+- **whoami** — Education, certifications, skills, and goals
+- **Documentary** — OverTheWire walkthroughs, CTF writeups, and security notes
 
-## 🔥 Features
+## 🌐 Live Site
 
-- OverTheWire Bandit walkthroughs with commands and screenshots
-- ExplainShell visual explanations for each command
-- Clean, easy-to-follow documentation style
-- Progress tracking for all levels
-
----
+[https://ihtishamaliamir.github.io](https://ihtishamaliamir.github.io)
 
 ## 🛠️ Tech Stack
 
 - **GitHub Pages** — Hosting
 - **Jekyll** — Static site generator
-- **Markdown** — All content written in plain text
-- **ExplainShell** — Command visualizations
+- **Markdown** — Content
+- **CSS/JS** — Dark/light theme toggle
 
----
-
-## 📁 Site Structure
+## 📁 Structure
 ├── _config.yml # Site settings
-
-├── index.md # Homepage
-
 ├── _layouts/ # Page templates
+│ └── default.html
+├── assets/
+│ ├── css/style.css # Theme styles
+│ └── js/main.js # Theme toggle functionality
+├── index.md # Landing page
+├── whoami/ # About me page
+├── documentary/ # Content hub
+│ ├── overthewire/ # OverTheWire walkthroughs
+│ │ └── bandit/ # Bandit levels
+│ ├── ctf/ # CTF writeups (coming soon)
+│ └── notes/ # Security notes (coming soon)
+└── assests/images/ # Screenshots and images
 
-├── overthewire/ # OverTheWire content
+text
 
-│ └── bandit/
+## 🚀 Local Development
 
-│ └── levels/ # Level walkthroughs
+```bash
+# Install dependencies
+bundle install
 
-└── assests/ # Images and screenshots
+# Serve locally
+bundle exec jekyll serve
 
----
+# Build
+bundle exec jekyll build
+📝 Content License
+All content is my own learning documentation. Feel free to learn from it!
 
-## 🔗 Live Site
+👤 Author
+Ihtisham Ali Amir
 
-**Visit:** [ihtishamaliamir.github.io](https://ihtishamaliamir.github.io)
+GitHub
 
----
+LinkedIn
 
-## 📊 Current Progress of Bandit OverTheWire
-
-| Level | Status |
-|-------|--------|
-| 0–4 | ✅ Complete |
-| 5–33 | ⏳ Coming Soon |
-
----
-
-## 👥 Contributors
-
-- [ihtishamaliamir](https://github.com/ihtishamaliamir)
----
-
-## 📬 Let's Connect
-
-- **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
-- **LinkedIn:** [Ihtisham Ali Amir](https://linkedin.com/in/ihtishamaliamir)
+Built with ♥ for the cybersecurity community.
