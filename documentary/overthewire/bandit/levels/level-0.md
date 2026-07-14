@@ -39,13 +39,13 @@ Password: bandit0
 
 💡 Tip: Read the level goal carefully first. Then read the manual if you don't know what a command does.
 
-https://../../../../assests/images/overthewire/bandit/bandit0/bandit0_ssh.png
+![SSH session](/assests/images/overthewire/bandit/bandit0/bandit0_ssh.png)
 
 Step 2: Explore the Directory
 bash
 bandit0@bandit:~$ ls
 readme
-https://../../../../assests/images/overthewire/bandit/bandit0/bandit0_ls.png
+![Directory listing](/assests/images/overthewire/bandit/bandit0/bandit0_ls.png)
 
 Step 3: Read the File
 bash
@@ -54,7 +54,7 @@ Output:
 
 text
 The password you are looking for is: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
-https://../../../../assests/images/overthewire/bandit/bandit0/bandit0_cat-readme.png
+![Readme output](/assests/images/overthewire/bandit/bandit0/bandit0_cat-readme.png)
 
 🎯 Password for Next Level
 text
