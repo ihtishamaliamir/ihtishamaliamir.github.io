@@ -6,6 +6,10 @@ parent: "Bandit"
 
 # 🎮 Bandit Level 0
 
+![OverTheWire Bandit Banner](https://overthewire.org/img/bandit.png)
+
+---
+
 ## 📋 Level Info
 
 | Info | Details |
@@ -84,8 +88,6 @@ SSH Basics	Remote connections using ssh with custom ports (-p)
 File Navigation	ls to list files in the current directory
 File Reading	cat to view file contents
 ➡️ What's Next
-Level 1 →
+Level 1 → (Coming soon!)
 
-Note: I'll add the Level 1 link after I complete it.
-
-First level complete! On to the next one... 🚀
+First level complete! On to the next one... 
