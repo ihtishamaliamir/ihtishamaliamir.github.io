@@ -36,7 +36,7 @@ parent: "Bandit"
 
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
-https://../../../assets/images/overthewire/bandit/bandit0/bandit0_ssh.png
+https://../../../assests/images/overthewire/bandit/bandit0/bandit0_ssh.png
 
 Password: bandit0
 
@@ -46,14 +46,14 @@ Step 2: Explore the Directory
 bash
 bandit0@bandit:~$ ls
 readme
-https://../../../assets/images/overthewire/bandit/bandit0/bandit0_ls.png
+https://../../../assests/images/overthewire/bandit/bandit0/bandit0_ls.png
 
 We found a file called readme.
 
 Step 3: Read the File
 bash
 bandit0@bandit:~$ cat readme
-https://../../../assets/images/overthewire/bandit/bandit0/bandit0_cat-readme.png
+https://../../../assests/images/overthewire/bandit/bandit0/bandit0_cat-readme.png
 
 Output:
 
