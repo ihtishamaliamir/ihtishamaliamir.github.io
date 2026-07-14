@@ -11,7 +11,7 @@ OverTheWire is a series of **hands-on wargames** that teach security concepts th
 
 ## 🎯 Games I'm Playing
 
-### [Bandit](/bandit/)
+### [Bandit](/overthewire/bandit/)
 **Focus:** Linux fundamentals, command line, and basic security concepts
 
 **Status:** 🔄 In Progress  
