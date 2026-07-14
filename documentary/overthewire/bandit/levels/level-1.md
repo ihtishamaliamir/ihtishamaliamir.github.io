@@ -1,6 +1,6 @@
 ---
 
-### 11. `documentary/overthewire/bandit/levels/level-1.md`
+#### `documentary/overthewire/bandit/levels/level-1.md`
 
 ```markdown
 ---
@@ -8,7 +8,7 @@ layout: default
 title: "Bandit Level 1"
 ---
 
-# <span class="terminal-prompt">$</span> Bandit Level 1
+# $ Bandit Level 1
 
 ---
 
@@ -44,11 +44,15 @@ Password: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 
 💡 Tip: Notice the file is named - — that's unusual!
 
+https:///assests/images/overthewire/bandit/bandit1/bandit1_ssh.png
+
 Step 2: Explore the Directory
 bash
 bandit1@bandit:~$ ls
 -
 We found a file called - (just a dash). This is tricky because - is a special character in Linux.
+
+https:///assests/images/overthewire/bandit/bandit1/bandit1_ls.png
 
 Step 3: Read the File
 bash
@@ -60,7 +64,7 @@ cat - would read from standard input (keyboard), not a file
 
 ./- tells Linux "look in the current directory for a file named -"
 
-The ./ means "current directory"
+https:///assests/images/overthewire/bandit/bandit1/bandit1_cat-dash.png
 
 🎯 Password for Next Level
 text
@@ -69,10 +73,7 @@ PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 Concept	What I Learned
 Special Filenames	Files can have names like - that need special handling
 Current Directory	./ specifies the current directory
-Command vs File	cat - means read from keyboard, not from a file
-The Confusing Part: At first, cat - didn't work because - is a special argument for many commands. I learned that ./- tells the command to treat - as a filename, not a special option.
-
 ➡️ Next Level
 Level 2 →
 
-The file named - taught me that in Linux, filenames matter — and sometimes you need to be specific.
+The file named - taught me that filenames matter in Linux.
