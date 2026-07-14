@@ -6,8 +6,6 @@ parent: "Bandit"
 
 # 🎮 Bandit Level 0
 
-![OverTheWire Bandit Banner](https://overthewire.org/img/bandit.png)
-
 ---
 
 ## 📋 Level Info
@@ -26,8 +24,8 @@ parent: "Bandit"
 
 | Command | Purpose |
 |---------|---------|
-| `ssh` | Secure Shell client for remote connections |
-| `ls` | List files in the current directory |
+| `ssh` | Secure Shell — remote connection |
+| `ls` | List files in current directory |
 | `cat` | Display file contents |
 
 ---
@@ -38,55 +36,68 @@ parent: "Bandit"
 
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
-![Explain Shell: SSH Command](../../assets/images/overthewire/bandit/bandit0/bandit0_ssh.png)
-What's happening:
+https://../../../assets/images/overthewire/bandit/bandit0/bandit0_ssh.png
 
-ssh connects you to the remote server
+Password: bandit0
 
-bandit0 is the username
-
--p 2220 specifies the port number
-
-You'll be prompted for the password: bandit0
-
-💡 Tip: Nothing appears on screen when you type the password — this is normal for security!
+My Advice: Read the level goal carefully first. Then read the manual if you don't know what a command does.
 
 Step 2: Explore the Directory
 bash
 bandit0@bandit:~$ ls
 readme
-![Explain Shell: LS Command](../../assets/images/overthewire/bandit/bandit0/bandit0_ls.png)
+https://../../../assets/images/overthewire/bandit/bandit0/bandit0_ls.png
 
-What's happening:
-
-ls lists all files in the current directory
-
-We found a file called readme
+We found a file called readme.
 
 Step 3: Read the File
 bash
 bandit0@bandit:~$ cat readme
-![Explain Shell: CAT Command](../../assets/images/overthewire/bandit/bandit0/bandit0_cat-readme.png)
+https://../../../assets/images/overthewire/bandit/bandit0/bandit0_cat-readme.png
 
 Output:
 
 text
 The password you are looking for is: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
-What's happening:
-
-cat displays the contents of the file
-
-The password is inside!
-
 🎯 Password for Next Level
 text
 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
-📚 Lessons Learned
+📚 What I Learned
 Concept	What I Learned
-SSH Basics	Remote connections using ssh with custom ports (-p)
-File Navigation	ls to list files in the current directory
+SSH Basics	Remote connection with ssh and custom ports (-p)
+File Navigation	ls to list what's there
 File Reading	cat to view file contents
-➡️ What's Next
-Level 1 → (Coming soon!)
+The Confusing Part: At first, I didn't know what SSH does or why you need to specify a port. The answer: SSH is how you securely connect to remote machines, and the -p flag tells it which door to use when the default (22) isn't being used.
 
-First level complete! On to the next one... 
+➡️ What's Next
+Level 1 → (Coming soon)
+This didn't feel like much when I first did it. But looking back — this was the first step. And every step after this builds on it.
+
+text
+
+---
+
+## 📝 Blogs Page — Simple
+
+### `blogs/index.md`
+
+```markdown
+---
+layout: default
+title: "Blogs"
+---
+
+# 📝 Blogs
+
+Coming soon.
+
+I'll be writing about:
+
+- Lessons from the lab
+- Things I broke and fixed
+- Things I broke and couldn't fix (yet)
+- Random cybersecurity thoughts
+
+---
+
+*I document so it might help others as I needed it too.*

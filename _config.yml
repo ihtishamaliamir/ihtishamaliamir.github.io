@@ -1,6 +1,6 @@
 # Site Settings
 title: "Ihtisham's Cybersecurity Journey"
-description: "Documenting my journey through OverTheWire, CTFs, and cybersecurity concepts"
+description: "Documenting my journey through cybersecurity, one challenge at a time"
 author: "Ihtisham Ali Amir"
 baseurl: ""
 url: "https://ihtishamaliamir.github.io"
@@ -14,7 +14,7 @@ nav:
   - name: "🎮 OverTheWire"
     url: "/overthewire/"
   - name: "🎯 Bandit"
-    url: "/bandit/"
+    url: "/overthewire/bandit/"
 
 # Build Settings
 markdown: kramdown
@@ -23,15 +23,12 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# Permalinks
-permalink: /:categories/:title/
+permalink: /:path/
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Defaults
 defaults:
   - scope:
       path: ""
