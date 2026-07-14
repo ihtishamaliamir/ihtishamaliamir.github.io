@@ -3,9 +3,9 @@ layout: default
 title: "Home"
 ---
 
-# 👋 Hey, I'm Ithisha Maliamir
+# 👋 I'm Ithisha Maliamir
 
-**Cybersecurity Enthusiast | CTF Player | Lifelong Learner**
+**Cybersecurity Enthusiast | CTF Player | Linux Learner**
 
 Welcome to my digital notebook — where I document my journey through the world of cybersecurity, one challenge at a time.
 
@@ -26,12 +26,8 @@ Welcome to my digital notebook — where I document my journey through the world
 ### [🎮 OverTheWire Walkthroughs](/overthewire/)
 Complete walkthroughs of the Bandit wargame with step-by-step commands, explanations, and screenshots.
 
-- ✅ **Level 0**: SSH basics
-- ⬜ **Level 1**: Coming soon
-- ⬜ **More levels in progress**
-
 ### [🎯 Bandit Levels](/bandit/)
-Jump directly to specific levels and track my progress.
+Track my progress through all 34 levels with detailed writeups.
 
 ---
 
@@ -40,16 +36,16 @@ Jump directly to specific levels and track my progress.
 > *"The best way to learn is to teach."*
 
 By documenting my journey, I'm:
-- Solidifying my understanding
-- Building a portfolio of my work
-- Creating a resource for others
+- ✅ Solidifying my understanding
+- ✅ Building a portfolio of my work
+- ✅ Creating a resource for others
 
 ---
 
 ## 📬 Let's Connect
 
 - **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
-- **LinkedIn:** [Ihtishamaliamir](https://linkedin.com/in/ithishamaliamir)
+- **LinkedIn:** [Ithisha Maliamir](https://linkedin.com/in/ithishamaliamir)
 
 ---
 

@@ -1,25 +1,51 @@
 ---
 layout: default
-title: "OverTheWire"
+title: "Bandit Wargame"
 ---
 
-# 🎮 OverTheWire Wargames
+# 🎯 Bandit Wargame
 
-OverTheWire is a series of **hands-on wargames** that teach security concepts through real challenges.
+The Bandit wargame teaches Linux fundamentals through 34 progressively challenging levels.
 
-## 🎯 Games I'm Playing
-
-### [Bandit](/bandit/)
-**Focus:** Linux fundamentals, command line, and basic security concepts
-
-**Status:** 🔄 In Progress  
-**Levels Completed:** 1 / 34  
-**Current Level:** 0
+**Current Progress:** 1 / 34 levels completed
 
 ---
 
-## 🔗 Resources
+## 📋 All Levels
 
-- [Official OverTheWire Site](https://overthewire.org/wargames/)
-- [Bandit Game Page](https://overthewire.org/wargames/bandit/)
-- [Rules & Guidelines](https://overthewire.org/rules/)
+| Level | Status | Walkthrough |
+|-------|--------|-------------|
+| 0 | ✅ Complete | [Level 0](/bandit/levels/level-0/) |
+| 1 | ⏳ Coming Soon | — |
+| 2 | ⏳ Coming Soon | — |
+| 3 | ⏳ Coming Soon | — |
+| 4 | ⏳ Coming Soon | — |
+| 5 | ⏳ Coming Soon | — |
+| 6 | ⏳ Coming Soon | — |
+| 7 | ⏳ Coming Soon | — |
+| 8 | ⏳ Coming Soon | — |
+| 9 | ⏳ Coming Soon | — |
+| 10 | ⏳ Coming Soon | — |
+| 11 | ⏳ Coming Soon | — |
+| 12 | ⏳ Coming Soon | — |
+| 13 | ⏳ Coming Soon | — |
+| 14 | ⏳ Coming Soon | — |
+| 15 | ⏳ Coming Soon | — |
+| 16 | ⏳ Coming Soon | — |
+| 17 | ⏳ Coming Soon | — |
+| 18 | ⏳ Coming Soon | — |
+| 19 | ⏳ Coming Soon | — |
+| 20 | ⏳ Coming Soon | — |
+| 21 | ⏳ Coming Soon | — |
+| 22 | ⏳ Coming Soon | — |
+| 23 | ⏳ Coming Soon | — |
+| 24 | ⏳ Coming Soon | — |
+| 25 | ⏳ Coming Soon | — |
+| 26 | ⏳ Coming Soon | — |
+| 27 | ⏳ Coming Soon | — |
+| 28 | ⏳ Coming Soon | — |
+| 29 | ⏳ Coming Soon | — |
+| 30 | ⏳ Coming Soon | — |
+| 31 | ⏳ Coming Soon | — |
+| 32 | ⏳ Coming Soon | — |
+| 33 | ⏳ Coming Soon | — |

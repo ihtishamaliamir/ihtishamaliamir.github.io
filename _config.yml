@@ -9,6 +9,8 @@ url: "https://ihtishamaliamir.github.io"
 nav:
   - name: "🏠 Home"
     url: "/"
+  - name: "📝 Blogs"
+    url: "/blogs/"
   - name: "🎮 OverTheWire"
     url: "/overthewire/"
   - name: "🎯 Bandit"
