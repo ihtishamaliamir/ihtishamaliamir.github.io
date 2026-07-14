@@ -49,7 +49,7 @@ I've completed **Bandit** completely, but for this walkthrough, I'm sticking to 
 
 ## 💡 Why Bandit?
 
-I didn't know where to start when I began cybersecurity. I was planning from scratch all the way to Cisco — even though I didn't have an idea of what a day‑to‑day CISO looks like. I just started. It eventually clicked.
+I didn't know where to start when I began cybersecurity. I was planning from scratch all the way to CISO — even though I didn't have an idea of what a day‑to‑day CISO looks like. I just started. It eventually clicked.
 
 Bandit is where I built my foundation. It's where you learn the commands that actually matter.
 
