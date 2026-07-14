@@ -97,7 +97,7 @@ PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
 ## ➡️ What's Next
 
-**[Level 2 →](/overthewire/bandit/levels/level-2/)** *(Coming soon)*
+**[Level 2 →](/overthewire/bandit/levels/level-2/)**
 
 ---
 
