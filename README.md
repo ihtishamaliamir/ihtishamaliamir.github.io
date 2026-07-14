@@ -1,145 +1,91 @@
 # Ihtisham Ali Amir | Cybersecurity Portfolio
 
-A professional portfolio documenting my journey through cybersecurity — from terminal curiosity to penetration testing.
+> A living documentation of my journey through cybersecurity — from terminal curiosity to professional penetration testing.
 
-## 🌐 Live Site
-
-**[ihtishamaliamir.github.io](https://ihtishamaliamir.github.io)**
-
----
-
-## 📁 Project Structure
-ihtishamaliamir.github.io/
-
-├── _config.yml # Jekyll configuration
-
-├── index.md # Landing page
-
-├── whoami/
-
-│ └── index.md # About me — education, certs, goals
-
-├── documentary/
-
-│ ├── index.md # Content hub
-
-│ ├── overthewire/
-
-│ │ ├── index.md # OverTheWire overview
-
-│ │ └── bandit/
-
-│ │ ├── index.md # Bandit progress
-
-│ │ └── levels/
-
-│ │ ├── level-0.md
-
-│ │ ├── level-1.md
-
-│ │ └── ... # All walkthroughs
-
-│ ├── ctf/
-
-│ │ └── index.md # CTF writeups (coming soon)
-
-│ └── notes/
-
-│ └── index.md # Security notes (coming soon)
-
-├── _layouts/
-
-│ └── default.html # Page template with dark/light toggle
-
-├── assets/
-
-│ ├── css/
-
-│ │ └── style.css # Terminal theme styling
-
-│ └── js/
-
-│ └── main.js # Theme toggle functionality
-
-└── assests/
-
-└── images/
-
-└── overthewire/
-
-└── bandit/ # Screenshots for walkthroughs
-
-├── bandit0/
-
-├── bandit1/
-
-├── bandit2/
-
-├── bandit3/
-
-└── bandit4/
-
-text
+[![Website](https://img.shields.io/badge/Website-ihtishamaliamir.github.io-00b894?style=flat-square&logo=github)](https://ihtishamaliamir.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-ihtishamaliamir-181717?style=flat-square&logo=github)](https://github.com/ihtishamaliamir)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ihtisham%20Ali%20Amir-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/ihtishamaliamir)
 
 ---
 
-## 🎯 Purpose
+## 📖 About This Site
 
-This site serves as:
+This is more than just a portfolio — it's my **digital notebook** where I document everything I learn in cybersecurity. Every walkthrough, note, and insight I share here comes from hands-on experience and genuine curiosity.
 
-- **Personal portfolio** — showcasing my skills, certifications, and goals
-- **Learning documentation** — detailed walkthroughs of OverTheWire Bandit
-- **Resource for others** — helping beginners start their cybersecurity journey
+### What you'll find here:
 
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **GitHub Pages** | Static site hosting |
-| **Jekyll** | Static site generator |
-| **Markdown** | All content written in plain text |
-| **CSS/JavaScript** | Dark/light theme toggle, responsive design |
-| **ExplainShell** | Command visualizations (image-based) |
+- **My Story** — Who I am, what drives me, and where I'm headed
+- **Wargame Walkthroughs** — Step-by-step solutions for OverTheWire and other platforms
+- **CTF Writeups** — Capture The Flag challenge solutions and techniques
+- **Security Notes** — Deep dives into vulnerabilities, tools, and concepts
 
 ---
 
-## 📊 Current Content
+## 🎯 Why I Document Everything
 
-| Section | Status | Details |
-|---------|--------|---------|
-| **Homepage** | ✅ Complete | Terminal-style landing with navigation |
-| **whoami** | ✅ Complete | Education, Fortinet FCF, DESC training, CCNA practice |
-| **Bandit Walkthroughs** | 🔄 In Progress | 17/34 levels (0-4 documented, 5-17 placeholders) |
-| **CTF Writeups** | ⏳ Planned | Coming soon |
-| **Security Notes** | ⏳ Planned | Coming soon |
+> *"I had no idea where to start when I began. So I just started. It eventually clicked."*
 
+I document my journey because:
+- **I don't want to forget** — writing reinforces learning
+- **Others can learn too** — helping beginners find their way
+- **It builds my portfolio** — showcasing real security work
 
 ---
 
-## 🚀 Deployment
+## 📊 Current Focus
 
-This site is automatically deployed via **GitHub Pages** when changes are pushed to the `main` branch.
+| Focus Area | Status | Details |
+|------------|--------|---------|
+| **DESC Training** | 🔄 Active | Batch 1, KPITB program — Security Architect role |
+| **CCNA Networking** | 🔄 Active | Routing, switching, ACLs, VLANs, OSPF |
+| **OverTheWire Bandit** | 🔄 Active | 17/34 levels complete |
+| **PortSwigger Labs** | 🔄 Active | SQL injection and web security labs |
 
-```bash
-🤝 Connect
-GitHub: ihtishamaliamir
+---
 
-LinkedIn: Ihtisham Ali Amir
+## 🚀 What's Coming
 
-📝 License
-All content in this repository is my own learning documentation. Feel free to use it as a reference for your own learning journey.
+- [ ] Complete all Bandit levels (0-33) with detailed walkthroughs
+- [ ] CTF writeups from HackTheBox, TryHackMe, and more
+- [ ] Security notes on OWASP Top 10, network security, cryptography
+- [ ] Project showcases — security tools, scripts, and reports
+- [ ] More wargames — Leviathan, Krypton, Narnia
 
-🙏 Acknowledgments
-OverTheWire — for the incredible Bandit wargame
+---
 
-ExplainShell — for command visualizations
+## 💡 Design Philosophy
 
-DESC (KPITB) — for cybersecurity training
+This site is built with a **terminal-inspired aesthetic** to reflect the command-line nature of cybersecurity work. Features include:
 
-AWKUM — for cybersecurity education
+- **Clean, minimal design** — content-first, no distractions
+- **Dark/Light theme** — user preference with system detection
+- **Fully responsive** — works on all devices
+- **Scalable** — grows with my learning journey
 
-Built with ♥ for the cybersecurity community.
+---
 
-"I had no idea where to start when I began. So I just started. It eventually clicked."
+## 🤝 Let's Connect
+
+Whether you're a fellow learner, a security professional, or just curious about cybersecurity — I'd love to connect!
+
+- **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
+- **LinkedIn:** [Ihtisham Ali Amir](https://linkedin.com/in/ihtishamaliamir)
+
+---
+
+## 📄 License
+
+All content is my personal learning documentation. Feel free to reference it for your own learning journey.
+
+---
+
+## 🙏 Acknowledgments
+
+- **[OverTheWire](https://overthewire.org/)** — for the incredible Bandit wargame
+- **[ExplainShell](https://explainshell.com/)** — for making command-line learning visual
+- **DESC (KPITB Program)** — for professional cybersecurity training
+- **AWKUM** — for formal cybersecurity education
+
+---
+
+*Built with ♥ for the cybersecurity community.*
