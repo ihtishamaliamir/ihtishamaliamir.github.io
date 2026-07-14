@@ -71,33 +71,5 @@ The Confusing Part: At first, I didn't know what SSH does or why you need to spe
 
 ➡️ What's Next
 Level 1 → (Coming soon)
+
 This didn't feel like much when I first did it. But looking back — this was the first step. And every step after this builds on it.
-
-text
-
----
-
-## 📝 Blogs Page — Simple
-
-### `blogs/index.md`
-
-```markdown
----
-layout: default
-title: "Blogs"
----
-
-# 📝 Blogs
-
-Coming soon.
-
-I'll be writing about:
-
-- Lessons from the lab
-- Things I broke and fixed
-- Things I broke and couldn't fix (yet)
-- Random cybersecurity thoughts
-
----
-
-*I document so it might help others as I needed it too.*

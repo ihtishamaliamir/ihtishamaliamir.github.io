@@ -24,7 +24,7 @@ I've completed **Bandit** completely, but for this walkthrough, I'm sticking to 
 
 | Level | Status | Walkthrough |
 |-------|--------|-------------|
-| 0 | ✅ Complete | [Level 0](/overthewire/overthewire/bandit/levels/level-0) |
+| 0 | ✅ Complete |[Level 0](/overthewire/bandit/levels/level-0/)
 | 1 | ✅ Complete | Coming soon |
 | 2 | ✅ Complete | Coming soon |
 | 3 | ✅ Complete | Coming soon |
