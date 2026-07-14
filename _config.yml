@@ -1,0 +1,42 @@
+# Site Settings
+title: "Ithisha's Cybersecurity Journey"
+description: "Documenting my journey through OverTheWire, CTFs, and cybersecurity concepts"
+author: "Ithisha Maliamir"
+baseurl: ""  # Leave empty for GitHub Pages user site
+url: "https://ithishamaliamir.github.io"
+
+# Navigation
+nav:
+  - name: "🏠 Home"
+    url: "/"
+  - name: "🎮 OverTheWire"
+    url: "/overthewire/"
+  - name: "🎯 Bandit"
+    url: "/overthewire/bandit/"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Permalinks
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+  - scope:
+      path: "overthewire"
+    values:
+      layout: "default"
