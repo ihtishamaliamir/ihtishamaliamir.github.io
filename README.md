@@ -81,16 +81,6 @@ This site serves as:
 | **CTF Writeups** | ⏳ Planned | Coming soon |
 | **Security Notes** | ⏳ Planned | Coming soon |
 
----
-
-## 🎨 Design Features
-
-- **Terminal aesthetic** with `$ whoami` header
-- **Dark/Light theme toggle** (persisted via localStorage)
-- **Fully responsive** — optimized for desktop, tablet, and mobile
-- **Clean typography** — professional fonts with monospace for commands
-- **Dropdown navigation** — easy access to all content categories
-- **Progress tracking** — visual progress bar for Bandit levels
 
 ---
 
