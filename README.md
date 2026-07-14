@@ -24,11 +24,17 @@ A personal documentation site for OverTheWire, CTFs, and cybersecurity concepts.
 
 ## 📁 Site Structure
 ├── _config.yml # Site settings
+
 ├── index.md # Homepage
+
 ├── _layouts/ # Page templates
+
 ├── overthewire/ # OverTheWire content
+
 │ └── bandit/
+
 │ └── levels/ # Level walkthroughs
+
 └── assests/ # Images and screenshots
 
 ---
