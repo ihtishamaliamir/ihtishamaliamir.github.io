@@ -38,8 +38,7 @@ parent: "Bandit"
 
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
-https://../../assets/images/overthewire/bandit/bandit0/bandit0_ssh.png
-
+![Explain Shell: SSH Command](../../assets/images/overthewire/bandit/bandit0/bandit0_ssh.png)
 What's happening:
 
 ssh connects you to the remote server
@@ -56,7 +55,7 @@ Step 2: Explore the Directory
 bash
 bandit0@bandit:~$ ls
 readme
-https://../../assets/images/overthewire/bandit/bandit0/bandit0_ls.png
+![Explain Shell: LS Command](../../assets/images/overthewire/bandit/bandit0/bandit0_ls.png)
 
 What's happening:
 
@@ -67,7 +66,7 @@ We found a file called readme
 Step 3: Read the File
 bash
 bandit0@bandit:~$ cat readme
-https://../../assets/images/overthewire/bandit/bandit0/bandit0_cat-readme.png
+![Explain Shell: CAT Command](../../assets/images/overthewire/bandit/bandit0/bandit0_cat-readme.png)
 
 Output:
 
