@@ -83,8 +83,6 @@ All content is my personal learning documentation. Feel free to reference it for
 
 - **[OverTheWire](https://overthewire.org/)** — for the incredible Bandit wargame
 - **[ExplainShell](https://explainshell.com/)** — for making command-line learning visual
-- **DESC (KPITB Program)** — for professional cybersecurity training
-- **AWKUM** — for formal cybersecurity education
 
 ---
 
