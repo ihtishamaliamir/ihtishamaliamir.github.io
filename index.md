@@ -34,7 +34,7 @@ As part of a team project, I took the role of Security Architect — we built a 
 
 This site is my **digital notebook** — where I document what I learn so I don't forget it. And maybe, just maybe, it helps someone else who's starting from zero like I did.
 
-### [🎮 OverTheWire Bandit Walkthroughs](/overthewire/bandit/)
+### [🎮 OverTheWire Bandit Walkthroughs](/overthewire/bandit/levels)
 Step-by-step, no-fluff walkthroughs of the Bandit wargame. Commands, explanations, and screenshots — exactly what I wish I had when I started.
 
 ---
