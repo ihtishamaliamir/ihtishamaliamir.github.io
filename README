@@ -1,0 +1,37 @@
+# My Cybersecurity Notes
+
+This is where I write down everything I learn about cybersecurity — OverTheWire walkthroughs, CTF writeups, and random security stuff I figure out along the way.
+
+I'm Ihtisham, a 4th-semester cybersecurity student at AWKUM. This site is my digital notebook.
+
+> **Live Site:** [ihtishamaliamir.github.io](https://ihtishamaliamir.github.io)
+
+---
+
+## What's inside
+
+### OverTheWire — Bandit Walkthroughs
+Right now, I'm documenting my progress through the Bandit wargame. Each level includes:
+- The commands I used
+- ExplainShell screenshots
+- What I actually learned from it
+- The password for the next level
+
+**Current status:** Levels 0–4 documented
+
+| Level | Status |
+|-------|--------|
+| 0–4 | ✅ Done |
+| 5+ | Coming soon |
+
+---
+
+## How this site works
+
+This is a simple static site built with:
+- **GitHub Pages** – hosting and deployment
+- **Jekyll** – turns Markdown files into a website
+- **Markdown** – everything is written in plain text
+- **ExplainShell** – screenshots for command explanations
+
+The structure is simple:
