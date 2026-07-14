@@ -1,94 +1,67 @@
 ---
-
-#### `documentary/overthewire/bandit/levels/level-3.md`
-
-```markdown
----
 layout: default
 title: "Bandit Level 3"
 ---
 
-# $ Bandit Level 3
+# Bandit Level 3
 
----
+## Goal
 
-##  Level Information
+Find the password for Level 4 in a hidden file.
 
-| Property | Value |
-|----------|-------|
-| **Host** | `bandit.labs.overthewire.org` |
-| **Port** | `2220` |
-| **Username** | `bandit3` |
-| **Password** | `7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME` |
-| **Goal** | Find the password for Level 4 in a hidden file |
+## Commands used
 
----
+- `ssh`
+- `cd`
+- `ls`
+- `ls -la`
+- `cat`
 
-##  Commands Used
+## Solution
 
-| Command | Purpose |
-|---------|---------|
-| `ssh` | Secure Shell — remote connection |
-| `cd` | Change directory |
-| `ls` | List files |
-| `ls -la` | List ALL files (including hidden) |
-| `cat` | Display file contents |
-
----
-
-##  Solution
-
-### Step 1: Connect to the Server
+### 1. Connect to the server
 
 ```bash
 ssh bandit3@bandit.labs.overthewire.org -p 2220
-Password: 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+```
+
+### 2. Enter the directory
+
+```bash
+ls
+cd inhere/
+```
+
+The directory contains a hidden file, so a regular `ls` does not show it.
 
 ![SSH session](/assets/images/overthewire/bandit/bandit3/bandit3_ssh.png)
 
-Step 2: Explore the Directory
-bash
-bandit3@bandit:~$ ls
-inhere
-bandit3@bandit:~$ cd inhere/
 ![Changed directory](/assets/images/overthewire/bandit/bandit3/bandit3_cd-inhere.png)
 
-bash
-bandit3@bandit:~/inhere$ ls
-(nothing shows up)
-![Directory listing](/assets/images/overthewire/bandit/bandit3/bandit3_ls.png)
+### 3. Show hidden files
 
-Why is nothing showing? The file is hidden!
+```bash
+ls -la
+```
 
-Step 3: Find Hidden Files
-bash
-bandit3@bandit:~/inhere$ ls -la
-total 12
-drwxr-xr-x 2 root    root    4096 Jun 24 14:59 .
-drwxr-xr-x 3 root    root    4096 Jun 24 14:59 ..
--rw-r----- 1 bandit4 bandit3   33 Jun 24 14:59 ...Hiding-From-You
+This exposes the hidden file `...Hiding-From-You`.
+
 ![Hidden file listing](/assets/images/overthewire/bandit/bandit3/bandit3_ls-la.png)
 
-What does -la do?
+### 4. Read the hidden file
 
--l = long format (shows permissions, owner, size)
+```bash
+cat ./...Hiding-From-You
+```
 
--a = all files (including hidden ones)
+The password is:
 
-Step 4: Read the Hidden File
-bash
-bandit3@bandit:~/inhere$ cat ./...Hiding-From-You
+```text
 xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+```
+
 ![Hidden file content](/assets/images/overthewire/bandit/bandit3/bandit3_cat.png)
 
- Password for Next Level
-text
-xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
- Key Learnings
-Concept	What I Learned
-Hidden Files	Files starting with . are hidden
-ls -la	Shows ALL files including hidden ones
- Next Level
-Level 4 →
+## Key learning
 
-Hidden files taught me that not everything is visible at first glance.
+Files beginning with `.` are hidden by default. `ls -la` reveals them.

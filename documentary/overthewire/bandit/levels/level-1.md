@@ -1,77 +1,54 @@
 ---
-
-#### `documentary/overthewire/bandit/levels/level-1.md`
-
-```markdown
----
 layout: default
 title: "Bandit Level 1"
 ---
 
-# $ Bandit Level 1
+# Bandit Level 1
 
----
+## Goal
 
-##  Level Information
+Find the password for Level 2 in a file named `-`.
 
-| Property | Value |
-|----------|-------|
-| **Host** | `bandit.labs.overthewire.org` |
-| **Port** | `2220` |
-| **Username** | `bandit1` |
-| **Password** | `6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR` |
-| **Goal** | Find the password for Level 2 in a file called `-` |
+## Commands used
 
----
+- `ssh`
+- `ls`
+- `cat`
 
-##  Commands Used
+## Solution
 
-| Command | Purpose |
-|---------|---------|
-| `ssh` | Secure Shell — remote connection |
-| `ls` | List files in current directory |
-| `cat` | Display file contents |
-
----
-
-##  Solution
-
-### Step 1: Connect to the Server
+### 1. Connect to the server
 
 ```bash
 ssh bandit1@bandit.labs.overthewire.org -p 2220
-Password: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+```
 
- Tip: Notice the file is named - — that's unusual!
+### 2. Inspect the directory
+
+```bash
+ls
+```
+
+The file is named `-`, so a normal `cat -` would try to read from standard input instead of the file.
 
 ![SSH session](/assets/images/overthewire/bandit/bandit1/bandit1_ssh.png)
 
-Step 2: Explore the Directory
-bash
-bandit1@bandit:~$ ls
--
-![Directory listing](/assets/images/overthewire/bandit/bandit1/bandit1_ls.png)
+### 3. Read the target file
 
-Step 3: Read the File
-bash
-bandit1@bandit:~$ cat ./-
+```bash
+cat ./-
+```
+
+The password is:
+
+```text
 PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
-Why ./-?
+```
 
-cat - would read from standard input (keyboard), not a file
-
-./- tells Linux "look in the current directory for a file named -"
+![Directory listing](/assets/images/overthewire/bandit/bandit1/bandit1_ls.png)
 
 ![Cat dash output](/assets/images/overthewire/bandit/bandit1/bandit1_cat-dash.png)
 
- Password for Next Level
-text
-PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
- Key Learnings
-Concept	What I Learned
-Special Filenames	Files can have names like - that need special handling
-Current Directory	./ specifies the current directory
- Next Level
-Level 2 →
+## Key learning
 
-The file named - taught me that filenames matter in Linux.
+A filename like `-` needs special handling in the shell. Using `./-` tells Linux to read the file in the current directory rather than treating it as stdin.

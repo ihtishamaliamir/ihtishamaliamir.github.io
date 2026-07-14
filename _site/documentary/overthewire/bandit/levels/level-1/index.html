@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/png">
+    <title>Bandit Level 1 | Ihtisham Ali Amir | Cybersecurity Portfolio</title>
+    <meta name="description" content="Cybersecurity student documenting my journey through security">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="terminal-prompt">$</span>
+                <a href="/" class="brand-link">ihtisham@portfolio:~</a>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/whoami/" class="nav-link">Whoami</a>
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Documentary</button>
+                    <div class="dropdown-content">
+                        <a href="/documentary/overthewire/">OverTheWire</a>
+                        <a href="/documentary/ctf/">CTF Writeups</a>
+                        <a href="/documentary/notes/">Security Notes</a>
+                    </div>
+                </div>
+                
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span id="themeIcon">T</span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content">
+            <h1 id="bandit-level-1">Bandit Level 1</h1>
+
+<h2 id="goal">Goal</h2>
+
+<p>Find the password for Level 2 in a file named <code class="language-plaintext highlighter-rouge">-</code>.</p>
+
+<h2 id="commands-used">Commands used</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ssh</code></li>
+  <li><code class="language-plaintext highlighter-rouge">ls</code></li>
+  <li><code class="language-plaintext highlighter-rouge">cat</code></li>
+</ul>
+
+<h2 id="solution">Solution</h2>
+
+<h3 id="1-connect-to-the-server">1. Connect to the server</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh bandit1@bandit.labs.overthewire.org <span class="nt">-p</span> 2220
+</code></pre></div></div>
+
+<h3 id="2-inspect-the-directory">2. Inspect the directory</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span>
+</code></pre></div></div>
+
+<p>The file is named <code class="language-plaintext highlighter-rouge">-</code>, so a normal <code class="language-plaintext highlighter-rouge">cat -</code> would try to read from standard input instead of the file.</p>
+
+<p><img src="/assets/images/overthewire/bandit/bandit1/bandit1_ssh.png" alt="SSH session" /></p>
+
+<h3 id="3-read-the-target-file">3. Read the target file</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> ./-
+</code></pre></div></div>
+
+<p>The password is:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
+</code></pre></div></div>
+
+<p><img src="/assets/images/overthewire/bandit/bandit1/bandit1_ls.png" alt="Directory listing" /></p>
+
+<p><img src="/assets/images/overthewire/bandit/bandit1/bandit1_cat-dash.png" alt="Cat dash output" /></p>
+
+<h2 id="key-learning">Key learning</h2>
+
+<p>A filename like <code class="language-plaintext highlighter-rouge">-</code> needs special handling in the shell. Using <code class="language-plaintext highlighter-rouge">./-</code> tells Linux to read the file in the current directory rather than treating it as stdin.</p>
+
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                Built by Ihtisham Ali Amir &bull;
+                <a href="https://github.com/ihtishamaliamir" target="_blank">GitHub</a> &bull;
+                <a href="https://linkedin.com/in/ihtishamaliamir" target="_blank">LinkedIn</a>
+            </p>
+            <p class="footer-small">
+                Last updated: July 15, 2026
+            </p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
