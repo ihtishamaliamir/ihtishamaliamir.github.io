@@ -98,7 +98,6 @@ PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 ## ➡️ What's Next
 
 **[Level 2 →](/overthewire/bandit/levels/level-2/)**
-
 ---
 
 *The file named `-` taught me that in Linux, filenames matter — and sometimes you need to be specific.*
