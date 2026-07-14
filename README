@@ -1,61 +1,57 @@
-# 🛡️ My Cybersecurity Notes
+# 🛡️ Cybersecurity Notes
 
-Welcome to my digital notebook — where I document my journey through OverTheWire, CTFs, and everything I learn about cybersecurity.
-
-I'm Ihtisham, a 4th-semester cybersecurity student at AWKUM. This site is where I write things down so I don't forget them.
-
-**👉 Live Site:** [ihtishamaliamir.github.io](https://ihtishamaliamir.github.io)
+A personal documentation site documenting my journey through OverTheWire, CTFs, and cybersecurity concepts.
 
 ---
 
-## 📚 What's Inside
-
-Right now, I'm documenting my progress through the **OverTheWire Bandit** wargame. Each level includes:
-
-- The commands I used
-- ExplainShell screenshots
-- What I actually learned
-- The password for the next level
-
-**Current progress:** Levels 0–4 documented
-
-| Level | Status |
-|-------|--------|
-| 0–4 | ✅ Done |
-| 5+ | ⏳ Coming soon |
+## Features
+- OverTheWire Bandit walkthroughs with commands and screenshots
+- ExplainShell visual explanations for each command
+- Clean, easy-to-follow documentation style
+- Progress tracking for all levels
 
 ---
 
-## 🛠️ How This Site Works
+## Tech Stack
+- GitHub Pages — Hosting
+- Jekyll — Static site generator
+- Markdown — All content written in plain text
+- ExplainShell — Command visualizations
 
-This is a simple static site built with:
+---
 
-- **GitHub Pages** — hosting and deployment
-- **Jekyll** — turns Markdown files into a website
-- **Markdown** — everything is written in plain text
-- **ExplainShell** — screenshots for command explanations
-
-The structure is straightforward:
-ihtishamaliamir.github.io/
-├── _config.yml # site settings
-├── index.md # homepage
-├── _layouts/ # page templates
+## Site Structure
+├── _config.yml # Site settings
+├── index.md # Homepage
+├── _layouts/ # Page templates
 ├── overthewire/ # OverTheWire content
 │ └── bandit/
-│ └── levels/ # level walkthroughs
-└── assests/ # images and screenshots
+│ └── levels/ # Level walkthroughs
+└── assests/ # Images and screenshots
 
 text
 
 ---
 
-## 📬 Let's Connect
-
-I'm always open to connecting with people who share the same interests — whether you're just starting out or have been in the field for a while.
-
-- **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
-- **LinkedIn:** [Ihtisham Ali Amir](https://linkedin.com/in/ihtishamaliamir)
+## Live Site
+🔗 **Visit:** [ihtishamaliamir.github.io](https://ihtishamaliamir.github.io)
 
 ---
 
-*I had no idea where to start when I began. So I just started. It eventually clicked.*
+## Current Progress
+| Level | Status |
+|-------|--------|
+| 0–4 | ✅ Complete |
+| 5–33 | ⏳ Coming Soon |
+
+---
+
+## Contributors
+- [ihtishamaliamir](https://github.com/ihtishamaliamir)
+- Ihtisham Ali Amir
+
+---
+
+## Let's Connect
+- **GitHub:** [ihtishamaliamir](https://github.com/ihtishamaliamir)
+- **LinkedIn:** [Ihtisham Ali Amir](https://linkedin.com/in/ihtishamaliamir)
